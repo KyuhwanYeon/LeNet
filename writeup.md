@@ -30,9 +30,9 @@ signs data set:
   n_train = y_train.size
 
   n_validation = y_valid.size
-n_test = y_test.size
+  n_test = y_test.size
   image_shape = X_train[0].size
-n_classes = np.unique(train['labels']).size
+  n_classes = np.unique(train['labels']).size
   
   ```
 
